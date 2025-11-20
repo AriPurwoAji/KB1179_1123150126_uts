@@ -36,7 +36,7 @@ class MySplashScreen3 extends StatelessWidget {
             ),
             SizedBox(height: 25),
             Text(
-              "Don't worry! we got you cover. \n Use wallie instead of cash!",
+              "Lets try Ari wallet now. \n And get the best solution for your needs!",
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 25,
@@ -58,20 +58,20 @@ class MySplashScreen3 extends StatelessWidget {
                 ),
                 const SizedBox(width: 8),
                 Container(
-                  height: 14,
-                  width: 14,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: Colors.cyan,
-                  ),
-                ),
-                const SizedBox(width: 8),
-                Container(
                   height: 10,
                   width: 10,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: Colors.grey,
+                  ),
+                ),
+                const SizedBox(width: 8),
+                Container(
+                  height: 14,
+                  width: 14,
+                  decoration: BoxDecoration(
+                    shape: BoxShape.circle,
+                    color: Colors.cyan,
                   ),
                 ),
               ],
