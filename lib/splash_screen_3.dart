@@ -86,9 +86,7 @@ class MySplashScreen3 extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(
-                        builder: (context) => MySplashScreen3(),
-                      ),
+                      MaterialPageRoute(builder: (context) => Signin()),
                     );
                   },
                   style: ElevatedButton.styleFrom(backgroundColor: Colors.cyan),
