@@ -66,8 +66,7 @@ class Signin extends StatelessWidget {
                   ),
                 ),
                 const SizedBox(height: 30),
-                Container(
-                  child: SizedBox(
+                  SizedBox(
                     height: 40,
                     width: double.infinity,
                     child: ElevatedButton(
@@ -88,7 +87,6 @@ class Signin extends StatelessWidget {
                       ),
                     ),
                   ),
-                ),
                 const SizedBox(height: 10),
                 Align(
                   alignment: Alignment.centerRight,
